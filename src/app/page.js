@@ -1,12 +1,12 @@
 import Navbar from "@/components/Navbar";
 import TripDetail from "@/components/TripDetail";
-import TripList from "@/components/TripList";
 import Welcome from "@/components/Welcome";
+import TripList from "./trips/page";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Welcome />
       <TripList />
       <TripDetail />
